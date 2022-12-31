@@ -1,3 +1,6 @@
+### JOBS-API
+An API where user can register and login via an account, create, read, update or delete their applied jobs.<br>
+hosted on https://jobs-api-yu81.onrender.com
 #### Setup
 In order to spin up the project, in the root create .env with these two variables, with your own values.
 
@@ -62,6 +65,9 @@ Email Validation Regex
 - express-rate-limit
 
 Swagger UI
+
+Can interact with the APIs through Swagger Docs/UI:
+https://jobs-api-yu81.onrender.com/api-docs/
 
 ```yaml
 /jobs/{id}:
